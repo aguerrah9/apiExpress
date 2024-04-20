@@ -1,0 +1,27 @@
+{
+  "name": "apiexpress",
+  "version": "1.0.0",
+  "description": "API created with ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguerrah9/apiExpress.git"
+  },
+  "author": "Alex Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguerrah9/apiExpress/issues"
+  },
+  "homepage": "https://github.com/aguerrah9/apiExpress#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
